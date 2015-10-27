@@ -107,9 +107,10 @@ alias tn='tmux new bash'
 
 alias zd='zendev'
 
+alias aws='ssh awsadmin.zenoss.loc'
+
 export SRCDIR=~/projects
 
-export GOPATH=/opt/go
 #history stuff
 
 HISTFILESIZE=1000000
