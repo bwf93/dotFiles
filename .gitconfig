@@ -5,3 +5,5 @@
 [user]
 	name = bwf93
 	email = bfarrell@zenoss.com
+[push]
+	default = simple

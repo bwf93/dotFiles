@@ -110,6 +110,8 @@ alias zd='zendev'
 
 alias aws='ssh awsadmin.zenoss.loc'
 
+alias pr='zendev port pull-request'
+
 export SRCDIR=~/projects
 
 #history stuff
@@ -126,3 +128,5 @@ GIT_PROMPT_ONLY_IN_REPO=1
 source /home/bfarrell/projects/git-prompt/bash-git-prompt/git-prompt-help.sh
 
 GIT_PROMPT_THEME=Solarized_Ubuntu
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

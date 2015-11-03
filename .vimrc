@@ -18,6 +18,6 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'faith/vim-go'
 
 call vundle#end()            " required
+filetype on
 filetype plugin indent on    " required
 
-filetype plugin on
