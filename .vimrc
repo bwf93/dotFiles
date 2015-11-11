@@ -13,8 +13,6 @@ Plugin 'Solarized'
 
 Plugin 'The-NERD-tree'
 
-Plugin 'Valloric/YouCompleteMe'
-
 Plugin 'faith/vim-go'
 
 call vundle#end()            " required
