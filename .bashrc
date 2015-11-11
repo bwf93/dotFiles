@@ -94,13 +94,13 @@ alias gs='git status'
 
 alias gl='git lg'
 
-alias ide='/home/bfarrell/intellij/idea/bin/idea.sh &'
-
 alias aws='ssh awsadmin.zenoss.loc'
 
 alias tn='tmux new bash'
 
 alias px='ps aux'
+
+alias ifc='ifconfig'
 
 #Zenoss alias
 
@@ -121,12 +121,5 @@ HISTSIZE=1000000
 
 #Source zendev stuff
 source $(zendev bootstrap)
-
-#Git prompt
-GIT_PROMPT_ONLY_IN_REPO=1
-
-source /home/bfarrell/projects/git-prompt/bash-git-prompt/git-prompt-help.sh
-
-GIT_PROMPT_THEME=Solarized_Ubuntu
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
