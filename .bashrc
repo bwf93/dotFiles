@@ -94,6 +94,8 @@ alias gs='git status'
 
 alias gl='git lg'
 
+alias gp='git push'
+
 alias aws='ssh awsadmin.zenoss.loc'
 
 alias tn='tmux new bash'
