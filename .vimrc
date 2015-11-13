@@ -15,6 +15,8 @@ Plugin 'The-NERD-tree'
 
 Plugin 'faith/vim-go'
 
+Plugin 'wakatime/vim-wakatime'
+
 call vundle#end()            " required
 filetype on
 filetype plugin indent on    " required
