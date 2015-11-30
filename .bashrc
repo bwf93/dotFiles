@@ -94,7 +94,7 @@ alias gs='git status'
 
 alias gl='git lg'
 
-alias gp='git push'
+alias gp='git pull'
 
 alias aws='ssh awsadmin.zenoss.loc'
 
