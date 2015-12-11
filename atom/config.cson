@@ -1,0 +1,49 @@
+"*":
+  "exception-reporting":
+    userId: "7b4cfaaa-52f7-7518-f723-e340697dc03b"
+  welcome:
+    showOnStartup: false
+  core:
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    ignoredNames: [
+      ".git"
+      "*.pyc"
+    ]
+    openEmptyEditorOnStart: false
+    themes: [
+      "atom-solarized-dark-ui"
+      "solarized-dark-syntax"
+    ]
+    audioBeep: false
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+  minimap:
+    plugins:
+      pigments: true
+      "highlight-selected": true
+      "git-diff": true
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  "linter-pylint":
+    rcFile: "/home/bfarrell/.pylintrc"
+  linter:
+    showErrorPanel: false
+  "autosave-plus":
+    enabled: true
+  autosave:
+    enabled: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  "google-repo-diff":
+    showIconsInEditorGutter: true
+  "highlight-column":
+    opacity: 0.02
+  "open-recent": {}
+  "atom-beautify":
+    _analyticsUserId: "96b2c784-69de-4dbc-a708-3ba57962f62c"
+  "autocomplete-python": {}
