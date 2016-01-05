@@ -6,10 +6,12 @@
   core:
     disabledPackages: [
       "wrap-guide"
+      "linter-javac"
     ]
     ignoredNames: [
       ".git"
       "*.pyc"
+      "chef/serviced"
     ]
     openEmptyEditorOnStart: false
     themes: [
