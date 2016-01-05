@@ -1,2 +1,7 @@
 'atom-text-editor:not([mini])':
   'ctrl-d': 'editor:delete-line'
+'atom-workspace atom-text-editor':
+  'ctrl-l': 'unset!'
+  'ctrl-q': 'editor:select-line'
+'.platform-darwin, .platform-win32, .platform-linux':
+  'ctrl-l': 'go-to-line:toggle'
