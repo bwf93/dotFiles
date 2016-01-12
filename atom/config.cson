@@ -6,7 +6,6 @@
   core:
     disabledPackages: [
       "wrap-guide"
-      "linter-javac"
     ]
     ignoredNames: [
       ".git"
@@ -19,6 +18,9 @@
       "solarized-dark-syntax"
     ]
     audioBeep: false
+    packagesWithKeymapsDisabled: [
+      "java-generator"
+    ]
   editor:
     invisibles: {}
     showIndentGuide: true
@@ -33,8 +35,7 @@
     squashDirectoryNames: true
   "linter-pylint":
     rcFile: "/home/bfarrell/.pylintrc"
-  linter:
-    showErrorPanel: false
+  linter: {}
   "autosave-plus":
     enabled: true
   autosave:
@@ -48,6 +49,11 @@
   "open-recent": {}
   "atom-beautify":
     _analyticsUserId: "96b2c784-69de-4dbc-a708-3ba57962f62c"
+    analytics: false
+    java_configPath: "/project/dotfiles/dotFiles/atom/java_uncrustify.cfg"
   "autocomplete-python": {}
   "git-wip":
     notify: false
+  "todo-manager": {}
+  "todo-show": {}
+  todo: {}
