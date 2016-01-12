@@ -49,3 +49,5 @@
   "atom-beautify":
     _analyticsUserId: "96b2c784-69de-4dbc-a708-3ba57962f62c"
   "autocomplete-python": {}
+  "git-wip":
+    notify: false
