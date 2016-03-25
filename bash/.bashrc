@@ -106,7 +106,7 @@ alias ifc='ifconfig'
 
 #Workaround for kernel bug pre 4.4
 #alias ide='zendev use europa && nohup taskset 0x800 /home/bfarrell/Downloads/idea-IU-141.1532.4/bin/idea.sh &'
-alias ide='zendev use europa && nohup /home/bfarrell/Downloads/idea-IU-141.1532.4/bin/idea.sh &
+alias ide='zendev use europa && nohup /home/bfarrell/Downloads/idea-IU-141.1532.4/bin/idea.sh &'
 
 #Zenoss alias
 
