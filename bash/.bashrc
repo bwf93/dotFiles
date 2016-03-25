@@ -104,6 +104,10 @@ alias px='ps aux'
 
 alias ifc='ifconfig'
 
+#Workaround for kernel bug pre 4.4
+#alias ide='zendev use europa && nohup taskset 0x800 /home/bfarrell/Downloads/idea-IU-141.1532.4/bin/idea.sh &'
+alias ide='zendev use europa && nohup /home/bfarrell/Downloads/idea-IU-141.1532.4/bin/idea.sh &
+
 #Zenoss alias
 
 alias zt='zendev attach'
@@ -124,4 +128,8 @@ HISTSIZE=1000000
 #Source zendev stuff
 source $(zendev bootstrap)
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+#make sure system maven is first in path
+export PATH="/usr/share/maven/bin:$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+
+
