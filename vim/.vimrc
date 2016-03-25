@@ -17,8 +17,6 @@ Plugin 'faith/vim-go'
 
 Plugin 'wakatime/vim-wakatime'
 
-Plugin 'Valloric/YouCompleteMe'
-
 call vundle#end()            " required
 filetype on
 filetype plugin indent on    " required
