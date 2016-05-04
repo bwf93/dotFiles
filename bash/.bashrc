@@ -133,3 +133,8 @@ export PATH="/usr/share/maven/bin:$PATH:$HOME/.rvm/bin" # Add RVM to PATH for sc
 
 
 
+
+[[ -s "/home/bfarrell/.gvm/scripts/gvm" ]] && source "/home/bfarrell/.gvm/scripts/gvm"
+
+gvm use go1.6.1
+zendev use europa

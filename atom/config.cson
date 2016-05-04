@@ -15,6 +15,7 @@
       "wrap-guide"
       "linter-javac"
       "java-generator"
+      "wakatime"
     ]
     ignoredNames: [
       ".git"
@@ -52,6 +53,8 @@
   "linter-pylint":
     rcFile: "/home/bfarrell/.pylintrc"
   "linter-xmllint": {}
+  "markdown-preview":
+    useGitHubStyle: true
   minimap:
     plugins:
       "git-diff": true
@@ -67,5 +70,7 @@
   "tree-view":
     hideIgnoredNames: true
     squashDirectoryNames: true
+  wakatime:
+    apikey: "e54dd312-2ceb-4e48-97c2-f0ee61738733"
   welcome:
     showOnStartup: false
