@@ -2,6 +2,8 @@
   "atom-beautify":
     _analyticsUserId: "96b2c784-69de-4dbc-a708-3ba57962f62c"
     analytics: false
+    general:
+      _analyticsUserId: "26fd79d5-4833-488b-812c-d8417c0968b9"
     java_configPath: "/project/dotfiles/dotFiles/atom/java_uncrustify.cfg"
   "autocomplete-java": {}
   "autocomplete-python": {}
@@ -31,6 +33,7 @@
       "solarized-dark-syntax"
     ]
   editor:
+    fontSize: 13
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
