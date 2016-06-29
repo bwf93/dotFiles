@@ -106,7 +106,7 @@ alias ifc='ifconfig'
 
 #Workaround for kernel bug pre 4.4
 #alias ide='zendev use europa && nohup taskset 0x800 /home/bfarrell/Downloads/idea-IU-141.1532.4/bin/idea.sh &'
-alias ide='zendev use europa && nohup /home/bfarrell/Downloads/idea-IU-141.1532.4/bin/idea.sh &'
+alias ide='zendev use europa && nohup /home/bfarrell/idea-IU-141.3058.30/bin/idea.sh &'
 
 #Zenoss alias
 
@@ -136,5 +136,5 @@ export PATH="/usr/share/maven/bin:$PATH:$HOME/.rvm/bin" # Add RVM to PATH for sc
 
 [[ -s "/home/bfarrell/.gvm/scripts/gvm" ]] && source "/home/bfarrell/.gvm/scripts/gvm"
 
-gvm use go1.6.1
+#gvm use go1.6.1
 zendev use europa
